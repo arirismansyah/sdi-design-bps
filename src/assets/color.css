@@ -1,0 +1,53 @@
+:root {
+  --primary-color-1: #003c80;
+  --primary-color-1-hover: #ffd900;
+  --primary-color-1-pressed: #eb891b;
+  --yellowish-1: #ffd900;
+
+  --primary-color-2: #002b6a;
+  --primary-color-2-hover: #ffd900;
+  --primary-color-2-pressed: #eb891b;
+
+  --primary-color-light: #0093dd;
+
+  --black: #101828;
+  --gray: #7b7b7d;
+  --gray-light: #d5d5d5;
+  --white: #ffffff;
+
+  --success-light: #5dab2c;
+  --success-default: #1f630e;
+  --warning-light: #eb891b;
+  --warning-default: #883908;
+  --danger-light: #ff2d3b;
+  --danger-default: #b7163e;
+}
+
+.text-primary {
+  color: var(--black);
+}
+
+.text-secondary {
+  color: var(--gray);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-yellowish {
+  color: var(--yellowish-1);
+}
+
+.bg-gray {
+  background-color: var(--gray);
+}
+.bg-gray-light {
+  background-color: var(--gray-light);
+}
+.bg-primary-color-1 {
+  background-color: var(--primary-color-1);
+}
+.bg-primary-color-2 {
+  background-color: var(--primary-color-2);
+}

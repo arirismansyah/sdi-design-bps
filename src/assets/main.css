@@ -1,0 +1,16 @@
+@import url('./color.css');
+@import url('./components.css');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+:root {
+  --border-radius: 30px;
+  --border-radius-sm: 15px;
+  --border-radius-xs: 10px;
+}
