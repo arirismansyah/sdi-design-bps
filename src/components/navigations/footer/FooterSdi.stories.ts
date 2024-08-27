@@ -4,7 +4,7 @@ export default {
   component: FooterSdi
 }
 
-export const FirstStory = {
+export const Default = {
   render: (args: String) => ({
     components: { FooterSdi },
     setup() {
@@ -13,7 +13,7 @@ export const FirstStory = {
     template: '<FooterSdi v-bind="args" />'
   }),
   args: {
-    copyright: 'Copyright Here',
+    copyright: 'Hak Cipta © 2024 Badan Pusat Statistik',
     instansi: 'Badan Pusat Statistik (BPS - Statistics Indonesia)',
     alamat: 'Jl. Dr. Sutomo 6-8 Jakarta 10710 Indonesia',
     telp: 'Telp (62-21) 3841195, 3842508, 3810291',
