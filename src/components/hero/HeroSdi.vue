@@ -8,17 +8,15 @@
           </p>
           <p class="page-subtitle text-center">Subtitle Page</p>
 
-          <div style="margin-left: 60px; margin-right: 60px">
-            <n-input-group style="border-radius: 40px">
-              <n-select :style="{ width: '20%' }"> </n-select>
-              <n-input :style="{ width: '70%' }" />
-              <n-button type="primary" :style="{ width: '10%' }">
-                <template #icon>
-                  <n-icon><Search /></n-icon>
-                </template>
-              </n-button>
-            </n-input-group>
-          </div>
+          <n-input-group class="search" style="border-radius: 40px">
+            <n-select :style="{ width: '25%' }"> </n-select>
+            <n-input :style="{ width: '70%' }" />
+            <n-button type="primary" :style="{ width: '5%' }">
+              <template #icon>
+                <n-icon><Search /></n-icon>
+              </template>
+            </n-button>
+          </n-input-group>
         </div>
       </slot>
     </div>

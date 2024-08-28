@@ -9,9 +9,7 @@ const themeOverrides: GlobalThemeOverrides = {
   Button: {
     textColorHover: '#0093dd'
   },
-  Input: {
-    colorFocus: '#0093dd'
-  },
+
   Tabs: {
     tabBorderRadius: '15px',
     tabBorderColor: '#d5d5d5',

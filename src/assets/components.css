@@ -128,8 +128,8 @@
   .overlay {
     position: relative;
     z-index: 999;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     width: 100%;
     display: inline-block;
     justify-content: center;
@@ -168,10 +168,16 @@
   margin-bottom: 4px;
 }
 
+.search {
+  margin-top: 20px;
+}
+
 .card-default {
   color: var(--white);
   border-radius: 20px;
 }
 
 .section-title {
+  font-size: 36px;
+  color: var(--primary-color-1);
 }
